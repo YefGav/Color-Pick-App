@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { ColorPicker } from './components/ColorPicker'
 import './App.css'
 
 function App() {
@@ -7,7 +8,7 @@ function App() {
   return (
     <>
       <div>
-        
+        <ColorPicker />
       </div>
     
     </>
