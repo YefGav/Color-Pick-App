@@ -1,13 +1,11 @@
-import React from "react";
-import { ColorPicker } from "./ColorPicker";
+import React from 'react';
 
-export const ColorDisplay = ({ color }) => {
-
-    return (
-        <div className="color-display" style={{ backgroundColor: color }}>
-            <p>{color}</p>
-        </div>
-    );
+function ColorDisplay({ color }) {
+  return (
+    <div className="ColorDisplay" style={{ backgroundColor: color }}>
+      <p>Selected Color: {color}</p>
+    </div>
+  );
 }
 
 export default ColorDisplay;

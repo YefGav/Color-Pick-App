@@ -1,23 +1,17 @@
-import React from "react";
-import { useState } from "react";
+import React from 'react';
 
-const ColorPicker =({ color, OnChangeColor}) =>{
-
-const handleColorChange = (e) =>{
-
+const ColorPicker = ({ color, onChangeColor }) => {
+  const handleColorChange = (e) => {
     const newColor = e.target.value;
+    onChangeColor(newColor);
+  };
 
-    OnChangeColor(newColor);
-};
-
-return (
-
-    <div className="color-picker">
-        <label>Select a color</label>
-        <input type="color" value={color} OnChangeColor={handleColorChange} />
+  return (
+    <div className="ColorPicker">
+      <label>Select a color</label>
+      <input type="color" value={color} onChange={handleColorChange} />
     </div>
-)
-
-}
+  );
+};
 
 export default ColorPicker;
