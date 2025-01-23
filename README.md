@@ -4,7 +4,7 @@ Web interactiva para seleccionar y visualizar colores. Esta aplicación permite 
 
 ## 🌟 Características 
 - Selección de colores en tiempo real
-- - Visualización del color seleccionado 
+-  Visualización del color seleccionado 
 
 ## 🚀 Tecnologías Utilizadas
 - React
@@ -43,8 +43,8 @@ color-picker-app/
 │     │   ├── ColorPicker.jsx
 │     │   ├── ColorDisplay.jsx
 │         
-│   ├── App.jsx
-│   ├── index.html
+│├── App.jsx
+│├── index.html
 ├── package.json
 ├── README.md          
 
