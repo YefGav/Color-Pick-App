@@ -1,34 +1,33 @@
-# Color Picker App 🎨
+# ToDo List App 📝
 
-Web interactiva para seleccionar y visualizar colores. Esta aplicación permite a los usuarios seleccionar colores a través de un picker y ver el color seleccionado en tiempo real.
+Aplicación web interactiva para gestionar tus tareas diarias. Esta aplicación permite a los usuarios añadir, borrar y mover tareas en una lista de manera sencilla.
 
 ## 🌟 Características 
-- Selección de colores en tiempo real
--  Visualización del color seleccionado 
+- Añadir nuevos artículos a la lista
+- Borrar artículos de la lista
+- Cambiar la posición de los artículos (hacia arriba o hacia abajo)
+- Botón de reset para limpiar la lista de tareas
 
 ## 🚀 Tecnologías Utilizadas
 - React
-- CSS3
 - Tailwind CSS
-
 
 ## 📋 Prerequisitos
 
 No se requieren instalaciones especiales. Solo necesitas:
-- Un navegador web moderno
+- Node.js y npm instalados
 - Un editor de código (recomendado: VS Code, Sublime Text, etc.)
-- Conexión a internet para cargar Tailwind CSS CDN
 
 ## 💻 Instalación
 
 1. Clona el repositorio:
 ```bash
-git clone https://github.com/YefGav/Color-Pick-App
-```
+git clone https://github.com/YefGav/TodoList-React
+
 
 2. Navega al directorio del proyecto:
 ```bash
-cd color-picker-app
+cd todo-list
 ```
 
 3. Abre el archivo `index.html` en tu navegador o utiliza un servidor local.
@@ -36,14 +35,16 @@ cd color-picker-app
 ## 🔧 Estructura del Proyecto
 
 ```
-color-picker-app/
+todo-list/
 │
 ├──── src/
 │     ├── components/
-│     │   ├── ColorPicker.jsx
-│     │   ├── ColorDisplay.jsx
+│     │   ├── AddTodo.jsx
+│     │   ├── TodoItem.jsx
+│     │   ├── TodoList.jsx
 │         
 │├── App.jsx
+│├── index.css
 │├── index.html
 ├── package.json
 ├── README.md          
